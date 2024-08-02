@@ -16,7 +16,7 @@ if __name__ == "__main__":
     create_folders()
     logger = logging.getLogger(__name__)
     logging.basicConfig(
-                        filename='C:\\Users\\AndreaRaieta\\lab\\auto_appinspect\\venv\\log\\app.log', 
+                        filename='<Your path goes here>\\app.log', 
                         encoding='utf-8',
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
                         level=logging.INFO,
