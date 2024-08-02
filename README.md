@@ -72,6 +72,10 @@ On Linux   ===>  source venv/bin/activate
 pip install -r requirements.txt
 ```
   </li>
+
+  <li>
+    <p>Run app.py</p>
+
 ```sh
 python /src/app.py
 ```
