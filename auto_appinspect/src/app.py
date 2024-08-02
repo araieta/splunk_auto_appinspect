@@ -52,7 +52,7 @@ if __name__ == "__main__":
     dt = datetime.datetime.now().isoformat("T","seconds").replace("-","").replace(":","")
     logging.info(f"END PROCESS ----> {  dt  }")
     try:
-        p = os.join.path(get_path_report('.\\.config'),"")
+        p = os.path.join(get_path_report('.\\.config'),"")
         with open(f"{p}_report_{dt}.html", "w") as f:
             f.write(report)
             logging.info(f"Report created in {p}")
