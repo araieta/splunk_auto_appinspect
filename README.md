@@ -1,4 +1,7 @@
-# splunk_auto_appinspect
+# splunk_auto_appinspect  
+
+![Logo](/static/wwo.png)
+
 A script in python to automate your splunk app check with app inspect Splunk API
 
 ## Configuration of the `.conf` File
